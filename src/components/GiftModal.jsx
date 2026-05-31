@@ -11,7 +11,7 @@ export function GiftModal({ selectedGift, onClose }) {
     return null
   }
 
-  const messengerHref = `https://m.me/nguyenngothanhphat?text=${encodeURIComponent(currentGiftText)}`
+  const messengerHref = `https://www.messenger.com/t/nguyenngothanhphat?text=${encodeURIComponent(currentGiftText)}`
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(currentGiftText)
